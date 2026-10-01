@@ -29,6 +29,9 @@ class DatabaseSeeder extends Seeder
         $this->call([
             CategorySeeder::class,
             ServiceSeeder::class,
+            StaffSeeder::class,
+            StaffServiceSeeder::class,
+            BookingSeeder::class,
         ]);
     }
 }
